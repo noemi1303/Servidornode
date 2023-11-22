@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Productos</title>
+		<link rel="stylesheet" href="styles/productosstyle.css" />
+	</head>
+	<body>
+		<header>
+
+            <h1>Pasteles</h1>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="images/pastel1.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel 3 Leches</h2>
+					<p class="price">$380</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/pastel2.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel Chocolate</h2>
+					<p class="price">$220</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/pastel3.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel Extra Chocolate</h2>
+					<p class="price">$350</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/pastel4.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel Hennessy</h2>
+					<p class="price">$290</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/pastel5.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel de Queso</h2>
+					<p class="price">$355</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel6.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel de Coco</h2>
+					<p class="price">$385</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel7.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel de Matcha</h2>
+					<p class="price">$405</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel8.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel de Fresas</h2>
+					<p class="price">$300</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel9.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel de Turín</h2>
+					<p class="price">$555</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel10.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tiramisu</h2>
+					<p class="price">$205</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel11.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pastel ChocoBlanco</h2>
+					<p class="price">$460</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pastel12.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Decorativos</h2>
+					<p class="price">$380</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay01.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Nuez</h2>
+					<p class="price">$120</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay2.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Fresas</h2>
+					<p class="price">$250</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay3.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Oreo</h2>
+					<p class="price">$40</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay4.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Zarzamora</h2>
+					<p class="price">$25</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay5.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Frutas</h2>
+					<p class="price">$38</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay6.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Limón</h2>
+					<p class="price">$30</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pay7.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Queso</h2>
+					<p class="price">$45</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/pays mango.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pay de Mango</h2>
+					<p class="price">$55</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/tarta.avif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tarta de Fruta</h2>
+					<p class="price">$30</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+            <div class="item">
+				<figure>
+					<img
+						src="images/cupcake choco.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcake de Chocolate</h2>
+					<p class="price">$20</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup1.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Fruta</h2>
+					<p class="price">$100</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup2.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Unicornio</h2>
+					<p class="price">$130</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup3.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tarta de Mariposas</h2>
+					<p class="price">$200</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup4.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes Florales</h2>
+					<p class="price">$320</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup5.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Vainilla</h2>
+					<p class="price">$120</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup6.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes Personalizados</h2>
+					<p class="price">$300</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup7.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes para Mamá</h2>
+					<p class="price">$350</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup8.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Cactus</h2>
+					<p class="price">$250</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup9.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Lavanda</h2>
+					<p class="price">$280</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup10.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Chocolates</h2>
+					<p class="price">$400</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+            <div class="item">
+				<figure>
+					<img
+						src="images/cup11.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cupcakes de Mantequilla</h2>
+					<p class="price">$150</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="scrips/productosscrips.js"></script>
+	</body>
+</html>
